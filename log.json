@@ -1,1 +1,56 @@
-[]
+[
+    [
+        {
+            "eventid": 1103757,
+            "eventtype": "FL",
+            "alertlevel": "Orange",
+            "country": "Brazil",
+            "headline": "No headline",
+            "fromdate": "2026-02-03T01:00:00",
+            "todate": "2026-05-03T01:00:00",
+            "coordinates": [
+                -37.592,
+                -8.4116
+            ]
+        },
+        {
+            "eventid": 1016449,
+            "eventtype": "DR",
+            "alertlevel": "Orange",
+            "country": "Argentina, Bolivia, Brazil, Peru, Paraguay",
+            "headline": "No headline",
+            "fromdate": "2022-09-21T00:00:00",
+            "todate": "2026-05-03T00:00:00",
+            "coordinates": [
+                -54.768,
+                -8.42
+            ]
+        },
+        {
+            "eventid": 1018327,
+            "eventtype": "DR",
+            "alertlevel": "Orange",
+            "country": "Argentina, Uruguay",
+            "headline": "No headline",
+            "fromdate": "2025-11-21T00:00:00",
+            "todate": "2026-05-03T00:00:00",
+            "coordinates": [
+                -60.785,
+                -34.19
+            ]
+        },
+        {
+            "eventid": 1018344,
+            "eventtype": "DR",
+            "alertlevel": "Orange",
+            "country": "Angola, Democratic Republic of Congo, Republic of Congo, Gabon, Zambia",
+            "headline": "No headline",
+            "fromdate": "2025-12-11T00:00:00",
+            "todate": "2026-05-03T00:00:00",
+            "coordinates": [
+                16.442,
+                -9.128
+            ]
+        }
+    ]
+]
