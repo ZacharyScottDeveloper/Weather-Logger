@@ -2,8 +2,11 @@ name: Weekly Disaster Tracker
 
 on:
   schedule:
-    - cron: '0 9 * * 1'  # every Monday at 9am UTC
-  workflow_dispatch:       # also lets you run it manually from GitHub
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:         # add this block
+  contents: write    # this is the important line
 
 jobs:
   run-tracker:
