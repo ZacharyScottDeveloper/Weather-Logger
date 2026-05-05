@@ -22,7 +22,7 @@ jobs:
         run: pip install requests
 
       - name: Run tracker
-        run: python weather_event_tracker.py
+        run: python weather-event-tracker.py
 
       - name: Save log.json back to repo
         run: |
