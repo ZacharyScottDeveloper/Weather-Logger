@@ -34,7 +34,7 @@ while True:
         "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH",
         params={
             "eventlist": "EQ;TC;FL;VO;WF;DR",
-            "alertlevel": "red;orange;green",
+            "alertlevel": "red;orange",
             "fromdate": date_week_ago.strftime("%Y-%m-%d"),
             "todate": current_date.strftime("%Y-%m-%d"),
             "pagenumber": page
