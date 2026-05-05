@@ -20,7 +20,7 @@ except json.JSONDecodeError as exc:
 past_eventids = set()
 for week in weekly_logs:
     for event in week:
-        eventid = event.get("properties", {}).get("eventid")
+        eventid = event.get("eventid")
         if eventid:
             past_eventids.add(eventid)
 
@@ -56,12 +56,25 @@ while True:
     print(f"Page {page}: got {len(events)} events")
     page += 1
 
+def simplify_event(event):
+    props = event.get("properties", {})
+    return {
+        "eventid": props.get("eventid"),
+        "eventtype": props.get("eventtype"),
+        "alertlevel": props.get("alertlevel"),
+        "country": props.get("country"),
+        "headline": props.get("headline", "No headline"),
+        "fromdate": props.get("fromdate"),
+        "todate": props.get("todate"),
+        "coordinates": event.get("geometry", {}).get("coordinates")
+    }
+
 filtered_events = []
 skipped_count = 0
 for event in all_events:
     eventid = event.get("properties", {}).get("eventid")
     if eventid and eventid not in past_eventids:
-        filtered_events.append(event)
+        filtered_events.append(simplify_event(event))
     else:
         skipped_count += 1
         print(f"Skipping duplicate event: {eventid}")
@@ -69,9 +82,7 @@ for event in all_events:
 print(f"Fetched {len(all_events)} events, {skipped_count} duplicates skipped, {len(filtered_events)} new events.")
 
 for event in filtered_events:
-    props = event["properties"]
-    print(props.get("eventtype"), props.get("country"), props.get("alertlevel"))
-
+    print(event.get("eventtype"), event.get("country"), event.get("alertlevel"))
 
 weekly_logs.append(filtered_events)
 with open(log_path, "w", encoding="utf-8") as log_file:
