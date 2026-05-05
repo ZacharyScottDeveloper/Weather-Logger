@@ -5,8 +5,8 @@ on:
     - cron: '0 9 * * 1'
   workflow_dispatch:
 
-permissions:         # add this block
-  contents: write    # this is the important line
+permissions:        
+  contents: write  
 
 jobs:
   run-tracker:
