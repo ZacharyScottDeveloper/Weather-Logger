@@ -1,1 +1,54 @@
+Sample event rows:
+ eventid eventtype alertlevel   country    headline   fromdate     todate      coordinates  longitude  latitude  duration
+ 1016449        DR     Orange Argentina No headline 2022-09-21 2026-05-04 [-54.768, -8.42]    -54.768     -8.42      1321
+ 1016449        DR     Orange   Bolivia No headline 2022-09-21 2026-05-04 [-54.768, -8.42]    -54.768     -8.42      1321
+ 1016449        DR     Orange    Brazil No headline 2022-09-21 2026-05-04 [-54.768, -8.42]    -54.768     -8.42      1321
+ 1016449        DR     Orange      Peru No headline 2022-09-21 2026-05-04 [-54.768, -8.42]    -54.768     -8.42      1321
+ 1016449        DR     Orange  Paraguay No headline 2022-09-21 2026-05-04 [-54.768, -8.42]    -54.768     -8.42      1321
 
+Country counts:
+                              count
+country                            
+Argentina                         2
+Brazil                            2
+Bolivia                           1
+Peru                              1
+Paraguay                          1
+Uruguay                           1
+Angola                            1
+Democratic Republic of Congo      1
+Republic of Congo                 1
+Gabon                             1
+Zambia                            1
+
+Event type counts:
+           count
+eventtype       
+DR            12
+FL             1
+
+Alert level counts:
+            count
+alertlevel       
+Orange         13
+
+Average event duration by country (days):
+                              avg_duration
+country                                   
+Bolivia                             1321.0
+Peru                                1321.0
+Paraguay                            1321.0
+Argentina                            742.5
+Brazil                               705.0
+Uruguay                              164.0
+Angola                               144.0
+Gabon                                144.0
+Democratic Republic of Congo         144.0
+Republic of Congo                    144.0
+Zambia                               144.0
+
+Average event duration by event type (days):
+           avg_duration
+eventtype              
+DR                637.8
+FL                 89.0
