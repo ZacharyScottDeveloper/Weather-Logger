@@ -5,8 +5,8 @@ on:
     - cron: '0 9 * * 1'
   workflow_dispatch:
 
-permissions:        
-  contents: write  
+permissions:
+  contents: write
 
 jobs:
   run-tracker:
@@ -22,15 +22,18 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests pandas
 
       - name: Run tracker
         run: python weather-event-tracker.py
 
-      - name: Save log.json back to repo
+      - name: Run reader
+        run: python reader.py
+
+      - name: Save files back to repo
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add log.json
+          git add log.json log_analysis.txt
           git commit -m "Weekly disaster log update" || echo "No changes to commit"
           git push
