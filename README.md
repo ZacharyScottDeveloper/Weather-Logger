@@ -90,6 +90,8 @@ python weather-event-tracker.py
 
 The results will be saved to `log.json` in the same folder.
 
+Note: the log_analysis.txt file will stay up to date so you do not have to run the script, just check back here.
+
 ---
 
 ## Data source
