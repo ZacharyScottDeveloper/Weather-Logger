@@ -53,5 +53,20 @@
             ]
         }
     ],
-    []
+    [],
+    [
+        {
+            "eventid": 1000140,
+            "eventtype": "VO",
+            "alertlevel": "Orange",
+            "country": "Indonesia",
+            "headline": "No headline",
+            "fromdate": "2026-05-08T09:10:00",
+            "todate": "2026-05-08T09:10:00",
+            "coordinates": [
+                127.8783,
+                1.6992
+            ]
+        }
+    ]
 ]
