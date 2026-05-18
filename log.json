@@ -68,5 +68,20 @@
                 1.6992
             ]
         }
+    ],
+    [
+        {
+            "eventid": 1018431,
+            "eventtype": "DR",
+            "alertlevel": "Orange",
+            "country": "Madagascar",
+            "headline": "No headline",
+            "fromdate": "2025-11-21T00:00:00",
+            "todate": "2026-05-16T00:00:00",
+            "coordinates": [
+                46.253,
+                -20.544
+            ]
+        }
     ]
 ]
