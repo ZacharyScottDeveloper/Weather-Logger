@@ -83,5 +83,20 @@
                 -20.544
             ]
         }
+    ],
+    [
+        {
+            "eventid": 1541314,
+            "eventtype": "EQ",
+            "alertlevel": "Orange",
+            "country": "China",
+            "headline": "No headline",
+            "fromdate": "2026-05-18T13:44:26",
+            "todate": "2026-05-18T13:44:26",
+            "coordinates": [
+                109.2073,
+                24.4799
+            ]
+        }
     ]
 ]
