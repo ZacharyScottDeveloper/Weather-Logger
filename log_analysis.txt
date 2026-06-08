@@ -23,19 +23,20 @@ Zambia                            1
 Indonesia                         1
 Madagascar                        1
 China                             1
+Philippines                       1
 
 Event type counts:
            count
 eventtype       
 DR            13
+EQ             2
 FL             1
 VO             1
-EQ             1
 
 Alert level counts:
             count
 alertlevel       
-Orange         16
+Orange         17
 
 Average event duration by country (days):
                               avg_duration
@@ -47,13 +48,14 @@ Argentina                            742.5
 Brazil                               705.0
 Madagascar                           176.0
 Uruguay                              164.0
-Republic of Congo                    144.0
-Angola                               144.0
-Democratic Republic of Congo         144.0
 Zambia                               144.0
 Gabon                                144.0
+Democratic Republic of Congo         144.0
+Angola                               144.0
+Republic of Congo                    144.0
 China                                  0.0
 Indonesia                              0.0
+Philippines                            0.0
 
 Average event duration by event type (days):
            avg_duration

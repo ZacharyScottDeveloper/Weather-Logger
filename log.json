@@ -99,5 +99,20 @@
             ]
         }
     ],
-    []
+    [],
+    [
+        {
+            "eventid": 1544720,
+            "eventtype": "EQ",
+            "alertlevel": "Orange",
+            "country": "Philippines",
+            "headline": "No headline",
+            "fromdate": "2026-06-07T23:37:40",
+            "todate": "2026-06-07T23:37:40",
+            "coordinates": [
+                125.0469,
+                5.5918
+            ]
+        }
+    ]
 ]
