@@ -114,5 +114,33 @@
                 5.5918
             ]
         }
+    ],
+    [
+        {
+            "eventid": 1546719,
+            "eventtype": "EQ",
+            "alertlevel": "Orange",
+            "country": "China",
+            "headline": "No headline",
+            "fromdate": "2026-06-16T09:06:55",
+            "todate": "2026-06-16T09:06:55",
+            "coordinates": [
+                95.4028,
+                37.8888
+            ]
+        },
+        {
+            "eventid": 1546617,
+            "eventtype": "EQ",
+            "alertlevel": "Orange",
+            "country": "Indonesia",
+            "headline": "No headline",
+            "fromdate": "2026-06-16T03:27:44",
+            "todate": "2026-06-16T03:27:44",
+            "coordinates": [
+                120.2301,
+                -1.1312
+            ]
+        }
     ]
 ]

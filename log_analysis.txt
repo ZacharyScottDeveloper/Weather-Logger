@@ -11,6 +11,8 @@ Country counts:
 country                            
 Argentina                         2
 Brazil                            2
+Indonesia                         2
+China                             2
 Bolivia                           1
 Peru                              1
 Paraguay                          1
@@ -20,23 +22,21 @@ Democratic Republic of Congo      1
 Republic of Congo                 1
 Gabon                             1
 Zambia                            1
-Indonesia                         1
 Madagascar                        1
-China                             1
 Philippines                       1
 
 Event type counts:
            count
 eventtype       
 DR            13
-EQ             2
+EQ             4
 FL             1
 VO             1
 
 Alert level counts:
             count
 alertlevel       
-Orange         17
+Orange         19
 
 Average event duration by country (days):
                               avg_duration
