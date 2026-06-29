@@ -142,5 +142,46 @@
                 -1.1312
             ]
         }
+    ],
+    [
+        {
+            "eventid": 1548668,
+            "eventtype": "EQ",
+            "alertlevel": "Orange",
+            "country": "Philippines",
+            "headline": "No headline",
+            "fromdate": "2026-06-26T11:34:41",
+            "todate": "2026-06-26T11:34:41",
+            "coordinates": [
+                125.1965,
+                5.2392
+            ]
+        },
+        {
+            "eventid": 1548377,
+            "eventtype": "EQ",
+            "alertlevel": "Red",
+            "country": "Venezuela",
+            "headline": "No headline",
+            "fromdate": "2026-06-24T22:05:12",
+            "todate": "2026-06-24T22:05:12",
+            "coordinates": [
+                -68.5139,
+                10.453
+            ]
+        },
+        {
+            "eventid": 1548473,
+            "eventtype": "EQ",
+            "alertlevel": "Red",
+            "country": "Venezuela",
+            "headline": "No headline",
+            "fromdate": "2026-06-24T22:04:32",
+            "todate": "2026-06-24T22:04:32",
+            "coordinates": [
+                -68.5277,
+                10.436
+            ]
+        }
     ]
 ]
