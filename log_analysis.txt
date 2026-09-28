@@ -23,6 +23,7 @@ Northern Mariana Islands             2
 Serbia                               2
                                      2
 Kenya                                2
+India                                2
 Bolivia                              1
 Peru                                 1
 Paraguay                             1
@@ -76,14 +77,13 @@ Nicaragua                            1
 El Salvador                          1
 Belgium                              1
 Colombia                             1
-India                                1
 Nepal                                1
 
 Event type counts:
            count
 eventtype       
 DR            54
-TC            16
+TC            17
 EQ            14
 WF            13
 FL             7
@@ -92,7 +92,7 @@ VO             2
 Alert level counts:
             count
 alertlevel       
-Orange         95
+Orange         96
 Red            11
 
 Average event duration by country (days):
@@ -148,8 +148,8 @@ Tanzania                                 79.0
 Uganda                                   79.0
 France                                   77.7
 Spain                                    41.3
-India                                    21.0
 Marshall Islands                         13.0
+India                                    11.0
 Tunisia                                   8.0
 China                                     6.2
 Japan                                     5.8
@@ -173,7 +173,7 @@ Average event duration by event type (days):
 eventtype              
 DR                284.2
 FL                 24.4
-TC                  5.8
+TC                  5.5
 WF                  4.8
 EQ                  0.0
 VO                  0.0
