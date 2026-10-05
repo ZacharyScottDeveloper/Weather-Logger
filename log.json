@@ -686,5 +686,20 @@
                 18.1
             ]
         }
+    ],
+    [
+        {
+            "eventid": 1001325,
+            "eventtype": "TC",
+            "alertlevel": "Red",
+            "country": "Mexico",
+            "headline": "No headline",
+            "fromdate": "2026-09-21T03:00:00",
+            "todate": "2026-09-30T03:00:00",
+            "coordinates": [
+                -108.0,
+                30.5
+            ]
+        }
     ]
 ]

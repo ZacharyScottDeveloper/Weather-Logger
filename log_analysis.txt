@@ -23,6 +23,7 @@ Northern Mariana Islands             2
 Serbia                               2
                                      2
 Kenya                                2
+Mexico                               2
 India                                2
 Bolivia                              1
 Peru                                 1
@@ -72,7 +73,6 @@ Greece                               1
 Belize                               1
 Guatemala                            1
 Honduras                             1
-Mexico                               1
 Nicaragua                            1
 El Salvador                          1
 Belgium                              1
@@ -83,7 +83,7 @@ Event type counts:
            count
 eventtype       
 DR            54
-TC            17
+TC            18
 EQ            14
 WF            13
 FL             7
@@ -93,7 +93,7 @@ Alert level counts:
             count
 alertlevel       
 Orange         96
-Red            11
+Red            12
 
 Average event duration by country (days):
                                  avg_duration
@@ -136,10 +136,9 @@ Gabon                                   144.0
 Serbia                                  120.0
 Democratic Republic of Congo            111.5
 El Salvador                              98.0
-Mexico                                   98.0
 Nicaragua                                98.0
-Honduras                                 98.0
 Belize                                   98.0
+Honduras                                 98.0
 Guatemala                                98.0
 Ethiopia                                 95.0
 Somalia                                  95.0
@@ -147,6 +146,7 @@ Kenya                                    87.0
 Tanzania                                 79.0
 Uganda                                   79.0
 France                                   77.7
+Mexico                                   53.5
 Spain                                    41.3
 Marshall Islands                         13.0
 India                                    11.0
@@ -173,7 +173,7 @@ Average event duration by event type (days):
 eventtype              
 DR                284.2
 FL                 24.4
-TC                  5.5
+TC                  5.7
 WF                  4.8
 EQ                  0.0
 VO                  0.0
