@@ -12,15 +12,16 @@ country
 China                               14
 Philippines                          6
 Spain                                6
+Japan                                5
 Indonesia                            4
-Japan                                4
+Northern Mariana Islands             3
 France                               3
 Mexico                               3
 Argentina                            2
 Brazil                               2
 Democratic Republic of Congo         2
 Venezuela                            2
-Northern Mariana Islands             2
+Guam                                 2
 Serbia                               2
                                      2
 Kenya                                2
@@ -34,7 +35,6 @@ Republic of Congo                    1
 Gabon                                1
 Zambia                               1
 Madagascar                           1
-Guam                                 1
 Taiwan                               1
 Portugal                             1
 Viet Nam                             1
@@ -86,7 +86,7 @@ Event type counts:
            count
 eventtype       
 DR            54
-TC            20
+TC            23
 EQ            16
 WF            13
 FL             7
@@ -96,7 +96,7 @@ Alert level counts:
             count
 alertlevel       
 Orange        102
-Red            12
+Red            15
 
 Average event duration by country (days):
                                  avg_duration
@@ -155,7 +155,7 @@ Marshall Islands                         13.0
 India                                    11.0
 Tunisia                                   8.0
 China                                     6.2
-Japan                                     5.8
+Japan                                     5.6
 Greece                                    5.0
 Northern Mariana Islands                  5.0
 Guam                                      5.0
@@ -179,7 +179,7 @@ Average event duration by event type (days):
 eventtype              
 DR                284.2
 FL                 24.4
-TC                  5.6
+TC                  5.5
 WF                  4.8
 EQ                  0.0
 VO                  0.0
