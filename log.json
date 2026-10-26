@@ -796,5 +796,33 @@
                 14.8
             ]
         }
+    ],
+    [
+        {
+            "eventid": 1001345,
+            "eventtype": "TC",
+            "alertlevel": "Red",
+            "country": "India",
+            "headline": "No headline",
+            "fromdate": "2026-10-26T00:00:00",
+            "todate": "2026-10-26T12:00:00",
+            "coordinates": [
+                87.2,
+                15.9
+            ]
+        },
+        {
+            "eventid": 1573141,
+            "eventtype": "EQ",
+            "alertlevel": "Red",
+            "country": "China",
+            "headline": "No headline",
+            "fromdate": "2026-10-22T14:33:40",
+            "todate": "2026-10-22T14:33:40",
+            "coordinates": [
+                93.7797,
+                32.3805
+            ]
+        }
     ]
 ]
